@@ -67,8 +67,29 @@
     transform: scale(-1);
 }
 
-.ex-10-icon{
-    animation: step-start 1s linear infinite;
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
 }
 
-
+.ex-11-icon:hover {
+    animation: spin 2s linear;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+.ex-12-button{
+    
+}
