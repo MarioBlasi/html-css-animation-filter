@@ -90,6 +90,33 @@
         transform: rotate(0);
     }
 }
-.ex-12-button{
-    
+
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: sopra 2s linear;
+}
+@keyframes sopra {
+    0% {
+        left: 20%;
+    }
+    50% {
+        left:60%;
+    }
+    100% {
+        left: 20%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: sotto 2s linear;
+}
+@keyframes sotto {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 60%;
+    }
+    100% {
+        right: 20%;
+    }
 }
