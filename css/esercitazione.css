@@ -20,8 +20,30 @@
 }
 
 .ex-4-square{
-    transition: 2s;
+    transition: 3s;
 }
 .ex-4-square:hover{
-    border-radius: 50%;
+    background: transparent;
+}
+
+.ex-5-square{
+    transition: 3s;
+}
+.ex-5-square:hover{
+    transform: scale(3);
+}
+.ex-5-square:active {
+    transform: scale(1);
+}
+
+.ex-6-img:hover{
+    filter: grayscale(20%);
+}
+
+.ex-7-img{
+    transition: 2s;
+}
+
+.ex-7-img:hover{
+    filter:contrast(50%) satured(50%);
 }
